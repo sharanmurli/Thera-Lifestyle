@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+.about-hero {
+    background-position: center;
+    background-size: cover;
+   
+    height: 500px;
+  }
+
+  .about-heading h3{
+    font-family: 'Raleway', sans-serif;
+    position: absolute;
+    margin-top: -350px;
+    font-size: 42px;
+    color: white;
+    font-weight: 900;
+    
+    padding: 10px;
+    
+  }
+  

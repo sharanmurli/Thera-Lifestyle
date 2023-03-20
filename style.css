@@ -426,8 +426,12 @@ font-size:45px;}
 .about-section{
   padding-top: 40px;
 padding-bottom: -40px;
+background-size: cover;
+background-image: url('images/breathe.png');
+background-repeat: no-repeat;
+
   
-  background-color: black;
+ 
 }
 
 
@@ -495,6 +499,10 @@ h2 {
   font-size: 30px;
   padding-bottom:30px ;
   color: orange;
+}
+
+.cube h3{
+  text-transform: uppercase;
 }
 
 .read-more{
