@@ -426,9 +426,7 @@ font-size:45px;}
 .about-section{
   padding-top: 40px;
 padding-bottom: -40px;
-background-size: cover;
-background-image: url('images/breathe.png');
-background-repeat: no-repeat;
+background-color: #000;
 
   
  
@@ -1158,7 +1156,7 @@ margin-right: 100px;
   text-align: center;
 /*   transform: translate(-50%,-50%) rotate3d(1, 0, 0, -90deg); */
   transform-origin: top;
-  background-color: rgba(0,0,0,.4);
+  background-color: rgba(0,0,0,.6);
 /*   -webkit-clip-path: polygon(0 0 , 100% 0 , 90% 100% , 10% 100% ); */
   color: #fff;
 /*   font-size: 2em; */
@@ -1175,7 +1173,9 @@ margin-right: 100px;
   position: relative;
   display: inline-block;
   text-transform: uppercase;
-  color: rgba(255,255,255,.95);
+  color: orange;
+  font-weight: 900;
+ outline-color: #000;
 /*   transform: translate3d(-100%, 0,1px); */
 }
 .slide-content h3:before,
@@ -1186,7 +1186,8 @@ margin-right: 100px;
   height: 2px;
   position: absolute;
   top: 49%;
-  background-color: #f1f1f1;
+  background-color: orange;
+  font-weight: 900;
 }
 .slide-content h3:before {
   left: -90px;
